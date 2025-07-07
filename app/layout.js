@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: 'window.EXCALIDRAW_ASSET_PATH="/"',
+            __html: 'window.EXCALIDRAW_ASSET_PATH="https://esm.sh/@excalidraw/excalidraw@latest/dist/prod/"',
           }}
         />
       </head>
