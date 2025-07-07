@@ -19,6 +19,7 @@ jobs:
       with:
         path: |
           ./.next/cache
+          ./.opennext 
         key: ${{ runner.os }}-nextjs-build-${{ hashFiles('**/package-lock.json', '**/yarn.lock', '**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-nextjs-build-
