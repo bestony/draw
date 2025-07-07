@@ -8,6 +8,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="zh-Hans">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: 'window.EXCALIDRAW_ASSET_PATH="/"',
+          }}
+        />
+      </head>
       <body>
         {children}
       </body>
