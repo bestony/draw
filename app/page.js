@@ -9,6 +9,17 @@ const Excalidraw = dynamic(
     ssr: false,
   },
 );
+
 export default function Home() {
-  return <Excalidraw />;
+  const UIOptions = {
+    canvasActions: {
+      loadScene: false,
+    },
+  };
+  
+  return (
+    <div style={{ height: "100vh", width: "100vw" }}>
+      <Excalidraw UIOptions={UIOptions} />
+    </div>
+  );
 }
