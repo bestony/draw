@@ -1,7 +1,5 @@
 import "./globals.css";
 
-
-
 export const metadata = {
   title: "白宦成的画板",
   description: "白宦成的画板",
