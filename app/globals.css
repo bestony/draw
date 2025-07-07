@@ -7,3 +7,7 @@ body > div:nth-child(2) > div > div.layer-ui__wrapper > div > div > div.Stack.St
 body > div:nth-child(2) > div > div.layer-ui__wrapper > div > div > div.Stack.Stack_vertical.App-menu_top__left > div > div > div > div.dropdown-menu-group{
     display: none !important;
 }
+
+body > div:nth-child(2) > div > div.layer-ui__wrapper > footer > div.layer-ui__wrapper__footer-right.zen-mode-transition > div > button{
+    display: none !important;
+}
